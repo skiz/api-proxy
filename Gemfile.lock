@@ -1,0 +1,28 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    bson (1.1)
+    eventmachine (0.12.10)
+    json (1.4.6)
+    mongo (1.1)
+      bson (>= 1.0.5)
+    proxymachine (1.2.3)
+      eventmachine (>= 0.12.10)
+    rack (1.2.1)
+    rack-test (0.5.6)
+      rack (>= 1.0)
+    rake (0.8.7)
+    sinatra (1.0)
+      rack (>= 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  json
+  mongo
+  proxymachine
+  rack
+  rack-test
+  rake
+  sinatra
